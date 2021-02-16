@@ -1,13 +1,10 @@
 {
-  "name": "MERN-boilerplate",
+  "name": "gestor-tareas",
   "version": "1.0.0",
-  "description": "MERN stack project boilerplate",
-  "author": "Eugene Cheung",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arkon/MERN-boilerplate.git"
-  },
-  "license": "MIT",
+  "description": "Gestor de Tareas con stack MERN",
+  "author": "Sebas Restrepo",
+  "keywords": [],
+  "license": "ISC",
   "private": true,
   "scripts": {
     "start": "webpack -p --progress --profile --colors && node server",
@@ -22,12 +19,14 @@
     "@babel/preset-react": "^7.0.0-beta.42",
     "autoprefixer": "^8.2.0",
     "babel-loader": "^8.0.0-beta.2",
+    "bcrypt": "^5.0.0",
     "connect-history-api-fallback": "^1.5.0",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.1.0",
+    "moment": "^2.29.1",
     "mongoose": "^5.0.11",
     "node-sass": "^4.7.2",
     "nodemon": "^1.17.2",
